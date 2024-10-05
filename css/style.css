@@ -2431,8 +2431,9 @@
  .submit-button button{
      padding: 10px 20px;
      font-weight: 700;
-     color: #ffffff;
+     color: #7e7777;
      border: none;
+     background-color:#d2caca ;
 }
  .help-block.with-errors{
      position: absolute;
@@ -2672,9 +2673,15 @@
     100% {
         transform: translateX(-100%);
     }
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
-
+ 
 
 .col-lg-12{
     display: flex;
